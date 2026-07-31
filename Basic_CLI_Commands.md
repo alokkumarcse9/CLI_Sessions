@@ -503,3 +503,12 @@ Ctrl + R
 ```
 
 Type a keyword after pressing `Ctrl + R` to search for a previously executed command.
+
+---
+
+# CLI Commands Pictures
+
+
+![CLI Commands Screenshot](command_pic.png)
+
+---
