@@ -418,6 +418,136 @@ wc -c file.txt
 sort names.txt
 ```
 
+## 14. Sort File Content
+
+### Command
+
+```bash
+sort names.txt
+```
+
+### Example
+
+Suppose `names.txt` contains:
+
+```text
+Rohit
+Aman
+Virat
+Sachin
+Ankit
+```
+
+Run:
+
+```bash
+sort names.txt
+```
+
+### Output
+
+```text
+Aman
+Ankit
+Rohit
+Sachin
+Virat
+```
+
+### Explanation
+
+- The `sort` command sorts the contents of a file in **alphabetical order**.
+- By default, it sorts the data in **ascending order (A → Z)**.
+- The original file is **not modified**; the sorted output is displayed in the terminal.
+
+### Save the Sorted Output to a File
+
+To save the sorted output instead of displaying it in the terminal, use the output redirection operator (`>`).
+
+```bash
+sort names.txt > sorted_names.txt
+```
+
+This command creates a new file named `sorted_names.txt` and stores the sorted content in it.
+
+**Example**
+
+Suppose `names.txt` contains:
+
+```text
+Rohit
+Aman
+Virat
+Sachin
+Ankit
+```
+
+Run:
+
+```bash
+sort names.txt > sorted_names.txt
+```
+
+The `sorted_names.txt` file will contain:
+
+```text
+Aman
+Ankit
+Rohit
+Sachin
+Virat
+```
+
+### Common Options
+
+#### Sort in Reverse Order (Z → A)
+
+```bash
+sort -r names.txt
+```
+
+**Output:**
+
+```text
+Virat
+Sachin
+Rohit
+Ankit
+Aman
+```
+
+---
+
+#### Sort Numbers
+
+Suppose `numbers.txt` contains:
+
+```text
+20
+5
+100
+15
+```
+
+Run:
+
+```bash
+sort -n numbers.txt
+```
+
+**Output:**
+
+```text
+5
+15
+20
+100
+```
+
+> **Remember:**
+> - `-n` → Sort numbers in numeric order.
+> - `-r` → Sort in reverse order.
+
 ---
 
 ## 15. View the First Lines of a File
