@@ -206,6 +206,18 @@ cd /
 
 Moves to the root (`/`) directory of the file system.
 
+## Difference Between Root Directory and Home Directory
+
+| Root Directory (`/`) | Home Directory (`/home/alok-kumar`) |
+|-----------------------|--------------------------------------|
+| It is the top-most directory in the Linux file system. | It is the personal directory of a user. |
+| All files and directories start from the root directory. | It contains the user's personal files, folders, Downloads, Documents, etc. |
+| Represented by `/`. | Usually represented by `~` in the terminal. |
+| Shared by the entire operating system. | Belongs to a specific user. |
+
+
+
+
 ---
 
 ## 6. Create a New Directory
